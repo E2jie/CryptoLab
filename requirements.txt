@@ -1,0 +1,4 @@
+PySide6
+pycipher
+sympy
+cryptography

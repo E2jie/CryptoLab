@@ -1,0 +1,35 @@
+/* CryptoLab dark theme — uses only built-in PySide6/Qt styling. */
+QWidget { background: #0C1424; color: #EAF0FA; font-family: "Segoe UI"; font-size: 13px; }
+QMainWindow, QStackedWidget, QScrollArea, QScrollArea > QWidget > QWidget { background: #0C1424; }
+QFrame#sidebar { background: #121E30; border-right: 1px solid #2A3A51; }
+QFrame#sidebar QLabel { color: #8DA8C6; }
+QLabel { background: transparent; color: #D4E2F5; }
+QLabel#brand, QLabel#heading, QLabel#pageTitle { color: #69D4FF; font-weight: bold; font-size: 23px; }
+QLabel#pageText { color: #C7D7EB; font-size: 14px; }
+QLineEdit, QPlainTextEdit, QComboBox {
+    background: #162238; color: #F5F9FF; border: 1px solid #344862;
+    border-radius: 7px; padding: 8px; selection-background-color: #176B9E;
+}
+QLineEdit:focus, QPlainTextEdit:focus, QComboBox:focus { border: 1px solid #69D4FF; }
+QComboBox QAbstractItemView { background: #162238; color: #EAF0FA; selection-background-color: #176B9E; }
+QPushButton {
+    background: #176B9E; color: #FFFFFF; border: 1px solid #267FAE;
+    border-radius: 7px; padding: 10px; font-weight: 600;
+}
+QPushButton:hover { background: #248BC4; }
+QPushButton:pressed { background: #10577F; }
+QPushButton:disabled { color: #8193A8; background: #25344B; border: 1px solid #314055; }
+QPushButton#navButton {
+    background: transparent; color: #D5E2F3; text-align: left;
+    border: none; border-radius: 7px; padding: 12px; font-weight: 400;
+}
+QPushButton#navButton:hover { background: #223750; }
+QPushButton#navButton:checked { background: #176B9E; color: #FFFFFF; }
+QPushButton#openStudio { background: #176B9E; color: #FFFFFF; font-weight: bold; }
+QScrollBar:vertical { background: #0E1929; width: 10px; margin: 0; }
+QScrollBar::handle:vertical { background: #344B65; min-height: 28px; border-radius: 5px; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
+QScrollBar:horizontal { background: #0E1929; height: 10px; margin: 0; }
+QScrollBar::handle:horizontal { background: #344B65; min-width: 28px; border-radius: 5px; }
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { width: 0; }
+QToolTip { background: #182B43; color: #FFFFFF; border: 1px solid #42719A; padding: 5px; }

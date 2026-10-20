@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+venv/
+
+# PyCharm settings
+.idea/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and private keys
+.env
+*.pem
+*.key
+
+# Temporary files
+*.log
